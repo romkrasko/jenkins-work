@@ -36,6 +36,7 @@ public class LoginTest extends BaseTest {
 
     @Test
     public void logining() {
+        System.out.println("logining");
         mainPage.clickMailButton();
         test.log(LogStatus.INFO, "Click button");
         loginPage.setLogin("AutotestUser");

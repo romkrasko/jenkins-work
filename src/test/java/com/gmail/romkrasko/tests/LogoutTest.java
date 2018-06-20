@@ -22,6 +22,7 @@ public class LogoutTest extends BaseTest {
 
     @Test
     public void logout(){
+        System.out.println("logout");
         mainPage.clickMailButton();
         loginPage.setLogin("AutotestUser");
         loginPage.setPassword("AutotestUser123");

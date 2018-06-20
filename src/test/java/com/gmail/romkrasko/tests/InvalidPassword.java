@@ -23,6 +23,7 @@ public class InvalidPassword extends BaseTest {
 
     @Test
     public void invalidPassword(){
+        System.out.println("invalidPassword");
         driver.get("https://www.yandex.by");
         mainPage.clickMailButton();
         loginPage.setLogin("AutotestUser");

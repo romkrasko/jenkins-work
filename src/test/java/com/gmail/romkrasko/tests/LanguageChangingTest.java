@@ -19,6 +19,7 @@ public class LanguageChangingTest extends BaseTest {
 
     @Test
     public void languageChanging(){
+        System.out.println("languageChanging");
         mainPage.clickChangeLanguageButton();
         languageSettingsPage.selectEnglishLanguage();
         languageSettingsPage.clickSaveButton();

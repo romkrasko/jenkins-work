@@ -30,6 +30,7 @@ public class NavigationTest extends BaseTest {
 
     @Test
     public void navigationTest(){
+        System.out.println("navigationTest");
         mainPage.clickVideoButton();
         String actualVideoPageUrl = videoPage.getVideoPageUrl();
         Assert.assertEquals(actualVideoPageUrl, "https://yandex.by/video/");

@@ -22,6 +22,7 @@ public class InvalidLogin extends BaseTest {
 
     @Test
     public void invalidLogin(){
+        System.out.println("invalidLogin");
         mainPage.clickMailButton();
         loginPage.setLogin("NoAutotestUser");
         loginPage.setPassword("AutotestUser123");
