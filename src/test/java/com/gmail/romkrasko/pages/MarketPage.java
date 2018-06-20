@@ -15,4 +15,9 @@ public class MarketPage {
         return marketPageTitle;
 
     }
+
+    public String getMarketPageUrl(){
+        String marketPageUrl = driver.getCurrentUrl();
+        return marketPageUrl;
+    }
 }

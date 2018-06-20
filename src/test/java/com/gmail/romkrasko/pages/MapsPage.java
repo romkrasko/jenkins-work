@@ -14,4 +14,9 @@ public class MapsPage {
         String mapsPageTitle = driver.getTitle();
         return mapsPageTitle;
     }
+
+    public String getMapsPageUrl(){
+        String mapsPageUrl = driver.getCurrentUrl();
+        return mapsPageUrl;
+    }
 }
