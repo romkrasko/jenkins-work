@@ -46,7 +46,7 @@ public class NavigationTest extends BaseTest {
         mainPage.clickMapsButton();
         String actualMapsPageTitle = mapsPage.getMapsPageTitle();
         //Assert.assertEquals(actualMapsPageTitle, "Яндекс.Карты — подробная карта Беларуси и мира");
-        //        Assert.assertTrue(mapsPage.getMapsPageUrl().contains("https://yandex.by/maps"));
+        Assert.assertTrue(mapsPage.getMapsPageUrl().contains("https://yandex.by/maps"));
         driver.get("https://www.yandex.by/");
         mainPage.clickMarketButton();
         String actualMarketPageTitle = marketPage.getMarketPageTitle();
