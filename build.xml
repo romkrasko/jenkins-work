@@ -3,8 +3,7 @@
 <suite name = "Sample test Suite">
     <test name = "Sample test">
         <classes>
-            <class name = "com.gmail.romkrasko.tests.LoginTest" />
-
+            <class name = "com.gmail.romkrasko.tests.LoginTest"/>
         </classes>
     </test>
 </suite>
